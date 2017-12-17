@@ -4,6 +4,7 @@ import pygame
 
 def init():
     var.image_set()
+    pygame.display.set_caption("Personaaltreener")
 
 
 def update():
@@ -23,7 +24,7 @@ def update():
 
 
 def draw(screen):
-    screen.fill((255, 255, 255), (0, 0, var.screen_w, var.screen_h))
+    screen.fill((255, 255, 255))
 
     if var.hover == "head":
         screen.blit(var.head1r, var.head_start)
@@ -54,4 +55,6 @@ def draw(screen):
 
 
 def on_event(event):
-    pass
+    if event.type == pygame.MOUSEBUTTONDOWN:
+        if var.hover != "":
+            raise StateSwitcher("view")

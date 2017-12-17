@@ -28,12 +28,16 @@ if __name__ == '__main__':
     switch_state('select')
 
     while True:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                quit_game()
-            else:
-                current_state.on_event(event)
-        current_state.update()
-        current_state.draw(screen)
+        try:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    quit_game()
+                else:
+                    current_state.on_event(event)
+            current_state.update()
+            current_state.draw(screen)
 
-        pygame.display.flip()
+            pygame.display.flip()
+
+        except StateSwitcher as e:
+            switch_state(e.value)
