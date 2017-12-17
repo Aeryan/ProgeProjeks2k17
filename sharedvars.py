@@ -16,10 +16,12 @@ class Var:
     def __init__(self):
         self.screen_w = 1280
         self.screen_h = 600
-        self.hand1 = None
         self.head1 = None
         self.head1r = None
         self.foot1 = None
+        self.foot1r = None
+        self.arm1 = None
+        self.arm1r = None
         self.back1 = None
         self.back1r = None
         self.shol1 = None
@@ -39,20 +41,27 @@ class Var:
         self.arr_offset = 50
 
         self.hover = ""
-        self.head_start = (100, 100)
-        self.back_start = (85, 135)
-        self.shol_start = (70, 145)
+        self.head_start = (300, 100)
+        self.back_start = (285, 135)
+        self.shol_start = (270, 145)
         self.shol_break = 28
+        self.arm_start = (225, 162)
+        self.arm_break = 53
+        self.foot_start = (259, 220)
 
     def image_set(self):
         self.head1 = pygame.image.load(self.imgDir + "\head1.png").convert_alpha()
         self.head1r = pygame.image.load(self.imgDir + "\head1red.png").convert_alpha()
         self.foot1 = pygame.image.load(self.imgDir + "\\foot1.png").convert()
-        self.hand1 = pygame.image.load(self.imgDir + "\hand1.png").convert_alpha()
         self.back1 = pygame.image.load(self.imgDir + "\\back1.png").convert_alpha()
         self.back1r = pygame.image.load(self.imgDir + "\\back1red.png").convert_alpha()
         self.shol1 = pygame.image.load(self.imgDir + "\shoulder1.png").convert_alpha()
         self.shol1r = pygame.image.load(self.imgDir + "\shoulder1red.png").convert_alpha()
+        self.arm1 = pygame.image.load(self.imgDir + "\\arm1.png").convert_alpha()
+        self.arm1r = pygame.image.load(self.imgDir + "\\arm1red.png").convert_alpha()
+        self.foot1 = pygame.image.load(self.imgDir + "\\foot1.png").convert_alpha()
+        self.foot1r = pygame.image.load(self.imgDir + "\\foot1red.png").convert_alpha()
+
         self.retr = pygame.image.load(self.imgDir + "\\return.png").convert_alpha()
         self.retrr = pygame.image.load(self.imgDir + "\\returnred.png").convert_alpha()
         self.right = pygame.image.load(self.imgDir + "\\right.png").convert_alpha()
@@ -66,6 +75,7 @@ class Var:
                 self.shollist.append(pygame.image.load(self.imgDir + "\Shoulders\\" + i))
 
         self.shol_start = self.shol_start + (self.shol_start[0] + var.shol1.get_width() + self.shol_break,)
+        self.arm_start = self.arm_start + (self.arm_start[0] + var.arm1.get_width() + self.arm_break,)
 
 
 pygame.font.init()

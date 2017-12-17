@@ -2,44 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1cf8b-bd67-4645-b48a-529a7843291f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Jalalihased/jala tagumine osa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Jalalihased/jalapealne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Jalalihased/jalapress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Jalalihased/squat1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Jalalihased/squat2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/Biitseps-istudes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/Biitseps-kangiga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/Biitseps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/Triitseps-nööriga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/Triitseps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/triits+tiss.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kätelihased/triitz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/Küljelihased.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/alakõht+terve.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/kõht+alakõht.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/kõht+alakõht2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/kõht.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/külg+terve.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/küljelihased2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/terve kõht.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/terve kõht2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/ülakõht.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Kõhulihased/ülakõht2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Rinnalihased/rinna lendamine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Rinnalihased/rinna lendamine2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Rinnalihased/rinna ülemine pool.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Seljalihased/deadlift.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Seljalihased/lailihas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Seljalihased/lõuatõmme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Seljalihased/selg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Seljalihased/seljaülemine pool+biits.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Õlalihased/Ette-alla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Õlalihased/Kõrvale-alla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Õlalihased/istudes-üles-alla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Õlalihased/kang-üles-alla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Õlalihased/õlatagune1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/hand1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Abs/koht+alakoht2.png" afterPath="$PROJECT_DIR$/Images/Abs/koht+alakoht2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Abs/koht.png" afterPath="$PROJECT_DIR$/Images/Abs/koht.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Arms/triits+rind.jpg" afterPath="$PROJECT_DIR$/Images/Arms/triits+rind.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Back/lailihas.jpg" afterPath="$PROJECT_DIR$/Images/Back/lailihas.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Back/louatomme.jpg" afterPath="$PROJECT_DIR$/Images/Back/louatomme.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Back/selg.jpg" afterPath="$PROJECT_DIR$/Images/Back/selg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Back/seljaulemine pool+biits.jpg" afterPath="$PROJECT_DIR$/Images/Back/seljaulemine pool+biits.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Feet/jala tagumine osa.png" afterPath="$PROJECT_DIR$/Images/Feet/jala tagumine osa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Feet/jalapealne.png" afterPath="$PROJECT_DIR$/Images/Feet/jalapealne.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Feet/jalapress.png" afterPath="$PROJECT_DIR$/Images/Feet/jalapress.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Feet/squat1.png" afterPath="$PROJECT_DIR$/Images/Feet/squat1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Feet/squat2.png" afterPath="$PROJECT_DIR$/Images/Feet/squat2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Shoulders/Ette-alla.jpg" afterPath="$PROJECT_DIR$/Images/Shoulders/Ette-alla.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Shoulders/Korvale-alla.jpg" afterPath="$PROJECT_DIR$/Images/Shoulders/Korvale-alla.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Shoulders/kang-ules-alla.jpg" afterPath="$PROJECT_DIR$/Images/Shoulders/kang-ules-alla.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/Shoulders/olatagune1.jpg" afterPath="$PROJECT_DIR$/Images/Shoulders/olatagune1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/back1.png" afterPath="$PROJECT_DIR$/Images/back1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/back1red.png" afterPath="$PROJECT_DIR$/Images/back1red.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select.py" afterPath="$PROJECT_DIR$/select.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharedvars.py" afterPath="$PROJECT_DIR$/sharedvars.py" />
     </list>
@@ -86,25 +67,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sharedvars.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharedvars.py">
+      <file leaf-file-name="select.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/select.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/select.py">
+      <file leaf-file-name="sharedvars.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharedvars.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70498914">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.5943601">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,9 +111,9 @@
         <option value="$PROJECT_DIR$/Projekt/sharedvars.py" />
         <option value="$PROJECT_DIR$/Projekt/select.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/sharedvars.py" />
         <option value="$PROJECT_DIR$/view.py" />
         <option value="$PROJECT_DIR$/select.py" />
+        <option value="$PROJECT_DIR$/sharedvars.py" />
       </list>
     </option>
   </component>
@@ -518,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharedvars.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -540,10 +511,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/select.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70498914">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharedvars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5943601">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
