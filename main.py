@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
     screen = pygame.display.set_mode((var.screen_w, var.screen_h), flags)
 
-    switch_state('select')
+    switch_state('selector')
 
     while True:
         try:

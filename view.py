@@ -7,6 +7,10 @@ def init():
         var.showlist = var.backlist
     elif var.hover == "shoulder":
         var.showlist = var.shollist
+    elif var.hover == "arm":
+        var.showlist = var.armslist
+    elif var.hover == "foot":
+        var.showlist = var.legslist
     var.hover = ""
 
 
@@ -45,7 +49,6 @@ def draw(screen):
         screen.blit(var.leftr, (var.arr_offset, (var.screen_h-var.left.get_height())/2))
     else:
         screen.blit(var.left, (var.arr_offset, (var.screen_h-var.left.get_height())/2))
-
     screen.blit(var.showlist[var.shownum], ((var.screen_w - var.showlist[var.shownum].get_width())/2,
                                             (var.screen_h - var.showlist[var.shownum].get_height())/2))
 
@@ -53,7 +56,7 @@ def draw(screen):
 def on_event(event):
     if event.type == pygame.MOUSEBUTTONDOWN:
         if var.hover == "return":
-            raise StateSwitcher("select")
+            raise StateSwitcher("selector")
         elif var.hover == "left":
             if var.shownum == 0:
                 var.shownum = len(var.showlist) - 1
