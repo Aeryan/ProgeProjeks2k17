@@ -15,9 +15,9 @@ class Var:
 
     def image_set(self):
         self.head1 = pygame.image.load(self.imgDir + "\head1.png").convert_alpha()
-        self.foot1 = pygame.image.load(self.imgDir + "\foot1.png").convert()
+        self.foot1 = pygame.image.load(self.imgDir + "\\foot1.png").convert()
         self.hand1 = pygame.image.load(self.imgDir + "\hand1.png").convert_alpha()
-        self.back1 = pygame.image.load(self.imgDir + "\back1.png").convert_alpha()
+        self.back1 = pygame.image.load(self.imgDir + "\\back1.png").convert_alpha()
         self.shoulder1 = pygame.image.load(self.imgDir + "\shoulder1.png").convert_alpha()
 
 
