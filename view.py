@@ -5,13 +5,24 @@ import pygame
 def init():
     if var.hover == "back":
         var.showlist = var.backlist
+        var.showdata = var.backdata
     elif var.hover == "shoulder":
         var.showlist = var.shollist
+        var.showdata = var.sholdata
     elif var.hover == "arm":
         var.showlist = var.armslist
+        var.showdata = var.armsdata
     elif var.hover == "foot":
         var.showlist = var.legslist
+        var.showdata = var.legsdata
+    elif var.hover == "abs":
+        var.showlist = var.abslist
+        var.showdata = var.absdata
+    elif var.hover == "chest":
+        var.showlist = var.chestlist
+        var.showdata = var.chestdata
     var.hover = ""
+    var.shownum = 0
 
 
 def update():
@@ -49,8 +60,13 @@ def draw(screen):
         screen.blit(var.leftr, (var.arr_offset, (var.screen_h-var.left.get_height())/2))
     else:
         screen.blit(var.left, (var.arr_offset, (var.screen_h-var.left.get_height())/2))
-    screen.blit(var.showlist[var.shownum], ((var.screen_w - var.showlist[var.shownum].get_width())/2,
-                                            (var.screen_h - var.showlist[var.shownum].get_height())/2))
+    screen.blit(var.showlist[var.shownum], ((var.screen_w - var.showlist[var.shownum].get_width())/2, 0))
+    print(var.showdata)
+    print(var.showdata[var.shownum])
+    for i in var.showdata[var.shownum]:
+        text = var.font.render(i, False, (0, 0, 0))
+        screen.blit(text, ((var.screen_w - text.get_width())/2, var.showlist[var.shownum].get_height() +
+                           text.get_height() * var.showdata[var.shownum].index(i)))
 
 
 def on_event(event):
