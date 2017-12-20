@@ -61,8 +61,6 @@ def draw(screen):
     else:
         screen.blit(var.left, (var.arr_offset, (var.screen_h-var.left.get_height())/2))
     screen.blit(var.showlist[var.shownum], ((var.screen_w - var.showlist[var.shownum].get_width())/2, 0))
-    print(var.showdata)
-    print(var.showdata[var.shownum])
     for i in var.showdata[var.shownum]:
         text = var.font.render(i, False, (0, 0, 0))
         screen.blit(text, ((var.screen_w - text.get_width())/2, var.showlist[var.shownum].get_height() +
